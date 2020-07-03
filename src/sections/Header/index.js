@@ -1,45 +1,43 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
-import Toolbar from '@material-ui/core/Toolbar';
+import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
-  header: {
-    backgroundColor: 'black',
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
   },
-  logo: {
-    border: '1px solid white',
-    color: 'white',
-    fontSize: '1.5rem',
-    fontWeight: 400,
-    lineHeight: '1.15',
-    margin: '10px',
-    textAlign: 'left',
-    textTransform: 'none',
-    padding: '10px 25px',
+  textField: {
+    marginLeft: theme.spacing(1),
+    marginRight: theme.spacing(1),
+    width: '25ch',
   },
 }));
 
 export function Header() {
   const classes = useStyles();
+
   return (
-    <AppBar className={classes.header}>
-      <Toolbar>
-        <Button to='/' className={classes.logoContainer} disableRipple>
-          <div alt='Company Logo' className={classes.logo}>
-            The
-            <br />
-            Underground
-            <br />
-            Dance
-            <br />
-            Centre
-          </div>
-        </Button>
-        <span>Home</span>
-      </Toolbar>
-    </AppBar>
+    // <TextField
+    //   id='standard-full-width'
+    //   label='Label'
+    //   style={{ margin: 8 }}
+    //   placeholder='Placeholder'
+    //   helperText='Full width!'
+    //   // fullWidth
+    //   margin='normal'
+    //   InputLabelProps={{
+    //     shrink: true,
+    //   }}
+    // />
+    <TextField
+      label='None'
+      id='margin-none'
+      defaultValue='Default Value'
+      className={classes.textField}
+      helperText='Some important text'
+      fullWidth
+    />
   );
 }
