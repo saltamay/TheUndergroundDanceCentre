@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/the_underground/static/css/main.685dea8f.chunk.css",
+    "main.js": "/the_underground/static/js/main.1f2c40dd.chunk.js",
+    "main.js.map": "/the_underground/static/js/main.1f2c40dd.chunk.js.map",
+    "runtime-main.js": "/the_underground/static/js/runtime-main.04a18db9.js",
+    "runtime-main.js.map": "/the_underground/static/js/runtime-main.04a18db9.js.map",
+    "static/js/2.ff510af6.chunk.js": "/the_underground/static/js/2.ff510af6.chunk.js",
+    "static/js/2.ff510af6.chunk.js.map": "/the_underground/static/js/2.ff510af6.chunk.js.map",
+    "index.html": "/the_underground/index.html",
+    "precache-manifest.8b1292743dd319f89676a33f49ab70f7.js": "/the_underground/precache-manifest.8b1292743dd319f89676a33f49ab70f7.js",
+    "service-worker.js": "/the_underground/service-worker.js",
+    "static/css/main.685dea8f.chunk.css.map": "/the_underground/static/css/main.685dea8f.chunk.css.map",
+    "static/js/2.ff510af6.chunk.js.LICENSE.txt": "/the_underground/static/js/2.ff510af6.chunk.js.LICENSE.txt",
+    "static/media/rocket.jpg": "/the_underground/static/media/rocket.d09635f2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04a18db9.js",
+    "static/js/2.ff510af6.chunk.js",
+    "static/css/main.685dea8f.chunk.css",
+    "static/js/main.1f2c40dd.chunk.js"
+  ]
+}
